@@ -3,14 +3,17 @@ package ru.netology.statistic;
 public class Radio {
     private String name;
     private int currentStation;
-    private int lastStation = 9;
+    private int lastStation = 10;
     private int firstStation = 0;
 
     private int currentVolume;
-    private int maxVolume = 10;
+    private int maxVolume = 100;
     private int minVolume = 0;
 
     private boolean on;
+
+    public Radio() {
+    }
 
     public String getName() {
         return name;
