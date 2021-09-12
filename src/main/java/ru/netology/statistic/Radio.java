@@ -15,52 +15,21 @@ public class Radio {
     public Radio() {
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public int getLastStation() {
         return lastStation;
-    }
-
-    public void setLastStation(int lastStation) {
-        this.lastStation = lastStation;
     }
 
     public int getFirstStation() {
         return firstStation;
     }
 
-    public void setFirstStation(int firstStation) {
-        this.firstStation = firstStation;
-    }
-
     public int getMaxVolume() {
         return maxVolume;
     }
 
-    public void setMaxVolume(int maxVolume) {
-        this.maxVolume = maxVolume;
-    }
-
     public int getMinVolume() {
         return minVolume;
-    }
-
-    public void setMinVolume(int minVolume) {
-        this.minVolume = minVolume;
-    }
-
-    public boolean isOn() {
-        return on;
-    }
-
-    public void setOn(boolean on) {
-        this.on = on;
     }
 
     public int getCurrentStation() {

@@ -136,7 +136,6 @@ public class RadioTest {
         assertEquals(expected, actual);
     }
 
-    // переписала ниже
     @Test
     public void shouldIncreaseVolumeAboveMax() {
         Radio radio = new Radio();
@@ -148,7 +147,6 @@ public class RadioTest {
         assertEquals(expected, actual);
     }
 
-    // переписала ниже
     @Test
     public void shouldIncreaseVolumeAboveMaxAgain() {
         Radio radio = new Radio();
@@ -160,7 +158,6 @@ public class RadioTest {
         assertEquals(expected, actual);
     }
 
-    // переписала ниже
     @Test
     public void shouldReduceVolumeUnderMin() {
         Radio radio = new Radio();
@@ -172,7 +169,6 @@ public class RadioTest {
         assertEquals(expected, actual);
     }
 
-    // переписала ниже
     @Test
     public void shouldReduceVolumeUnderMinAgain() {
         Radio radio = new Radio();
