@@ -7,6 +7,17 @@ import static org.junit.jupiter.api.Assertions.*;
 public class RadioTest {
 
     @Test
+    public void shouldCountTheNumberOfStation() {
+        Radio radio = new Radio(10);
+        radio.setCurrentStation(10);
+
+        int expected = 0;
+        int actual = radio.getCurrentStation();
+
+        assertEquals(expected, actual);
+    }
+
+    @Test
     public void shouldNextNumberStation() {
         Radio radio = new Radio();
         radio.setCurrentStation(radio.getLastStation());
